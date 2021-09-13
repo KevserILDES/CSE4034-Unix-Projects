@@ -1,0 +1,3 @@
+Code in unix_2.c is not ordered, that is pid values not according to level of the tree.
+In unix_2_with_ordered_pids.c, all processes' pids are ordered just with an addition of sleep(traverseNum) call.
+
